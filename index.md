@@ -1,9 +1,14 @@
-# Hello!
+---
+layout: default
+title: Home
+---
 
-This is my website.
+# Welcome
 
-I'm testing GitHub Pages and Jekyll.
+This is my little corner of the internet.
 
-## Welcome
+I post my writing, artwork, and whatever else I feel like putting here.
 
-Eventually this will contain my writing, artwork, and whatever else I feel like putting here.
+## Latest
+
+I'm just getting started.
