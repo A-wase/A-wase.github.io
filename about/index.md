@@ -1,10 +1,26 @@
 ---
 layout: default
-title: About
+title: Art
 ---
 
-# About
+<h1>Art</h1>
 
-Hello.
+<div class="art-grid">
 
-This is where I can write a little bit about myself.
+{% for artwork in site.artwork %}
+
+  <a class="art-item" href="{{ artwork.url | relative_url }}">
+
+    {% if artwork.image %}
+      <img src="{{ artwork.image | relative_url }}" alt="{{ artwork.title }}">
+    {% endif %}
+
+    <div class="art-title">
+      {{ artwork.title }}
+    </div>
+
+  </a>
+
+{% endfor %}
+
+</div>

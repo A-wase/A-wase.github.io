@@ -4,6 +4,7 @@ description: My personal corner of the internet
 collections:
   artwork:
     output: true
+    permalink: /art/:name/
 
 defaults:
   - scope:
@@ -11,3 +12,9 @@ defaults:
       type: posts
     values:
       layout: post
+
+  - scope:
+      path: ""
+      type: artwork
+    values:
+      layout: artwork
