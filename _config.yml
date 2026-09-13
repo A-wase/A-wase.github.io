@@ -1,3 +1,13 @@
 title: My Website
 description: My personal corner of the internet
-theme: minima
+
+collections:
+  artwork:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
