@@ -1,26 +1,8 @@
 ---
 layout: default
-title: Art
+title: About
 ---
 
-<h1>Art</h1>
+# About
 
-<div class="art-grid">
-
-{% for artwork in site.artwork %}
-
-  <a class="art-item" href="{{ artwork.url | relative_url }}">
-
-    {% if artwork.image %}
-      <img src="{{ artwork.image | relative_url }}" alt="{{ artwork.title }}">
-    {% endif %}
-
-    <div class="art-title">
-      {{ artwork.title }}
-    </div>
-
-  </a>
-
-{% endfor %}
-
-</div>
+This is my personal corner of the internet.
